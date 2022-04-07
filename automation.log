@@ -1,0 +1,255 @@
+04052022 03:56:23 PM - LoginPage - INFO: Element Found
+04052022 03:56:23 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 03:56:24 PM - LoginPage - INFO: Element Found
+04052022 03:56:24 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 03:56:24 PM - LoginPage - INFO: Element Found
+04052022 03:56:24 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 03:56:24 PM - LoginPage - INFO: Element Found
+04052022 03:56:24 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 05:52:40 PM - LoginPage - INFO: Element Found
+04052022 05:52:40 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 05:52:43 PM - LoginPage - INFO: Element not found
+04052022 06:05:28 PM - LoginPage - INFO: Element Found
+04052022 06:05:28 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 06:05:30 PM - LoginPage - INFO: Element Found
+04052022 06:05:30 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 06:05:30 PM - LoginPage - INFO: Element Found
+04052022 06:05:30 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 06:05:30 PM - LoginPage - INFO: Element Found
+04052022 06:05:30 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 06:24:17 PM - LoginPage - INFO: Element Found
+04052022 06:24:17 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 06:24:19 PM - LoginPage - INFO: Element Found
+04052022 06:24:19 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 06:24:19 PM - LoginPage - INFO: Element Found
+04052022 06:24:19 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 06:24:19 PM - LoginPage - INFO: Element Found
+04052022 06:24:19 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 06:24:44 PM - LoginPage - INFO: Element Found
+04052022 06:24:44 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 06:24:46 PM - LoginPage - INFO: Element Found
+04052022 06:24:46 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 06:24:46 PM - LoginPage - INFO: Element Found
+04052022 06:24:46 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 06:24:46 PM - LoginPage - INFO: Element Found
+04052022 06:24:46 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 06:25:03 PM - LoginPage - INFO: Element not found
+04052022 06:25:03 PM - LoginPage - INFO: Element not found
+04052022 06:26:42 PM - LoginPage - INFO: Element Found
+04052022 06:26:42 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 06:26:43 PM - LoginPage - INFO: Element Found
+04052022 06:26:43 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 06:26:43 PM - LoginPage - INFO: Element Found
+04052022 06:26:43 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 06:26:43 PM - LoginPage - INFO: Element Found
+04052022 06:26:43 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 06:26:56 PM - LoginPage - INFO: Element Found
+04052022 06:26:56 PM - LoginPage - INFO: Element Found
+04052022 11:43:45 PM - LoginPage - INFO: Element Found
+04052022 11:43:45 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:43:47 PM - LoginPage - INFO: Element Found
+04052022 11:43:47 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:43:47 PM - LoginPage - INFO: Element Found
+04052022 11:43:47 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:43:47 PM - LoginPage - INFO: Element Found
+04052022 11:43:47 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:43:48 PM - LoginPage - INFO: Element Found
+04052022 11:43:48 PM - LoginPage - INFO: Element Found
+04052022 11:44:28 PM - LoginPage - INFO: Element Found
+04052022 11:44:28 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:44:30 PM - LoginPage - INFO: Element Found
+04052022 11:44:30 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:44:30 PM - LoginPage - INFO: Element Found
+04052022 11:44:30 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:44:30 PM - LoginPage - INFO: Element Found
+04052022 11:44:30 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:44:31 PM - LoginPage - INFO: Element Found
+04052022 11:44:31 PM - LoginPage - INFO: Element Found
+04052022 11:45:27 PM - LoginPage - INFO: Element Found
+04052022 11:45:28 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:45:29 PM - LoginPage - INFO: Element Found
+04052022 11:45:29 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:45:29 PM - LoginPage - INFO: Element Found
+04052022 11:45:29 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:45:29 PM - LoginPage - INFO: Element Found
+04052022 11:45:29 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:45:29 PM - LoginPage - INFO: Element Found
+04052022 11:45:29 PM - LoginPage - INFO: Element Found
+04052022 11:45:39 PM - LoginPage - INFO: Element not found
+04052022 11:47:00 PM - LoginPage - INFO: Element Found
+04052022 11:47:00 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:47:01 PM - LoginPage - INFO: Element Found
+04052022 11:47:01 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:47:01 PM - LoginPage - INFO: Element Found
+04052022 11:47:01 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:47:01 PM - LoginPage - INFO: Element Found
+04052022 11:47:01 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:47:02 PM - LoginPage - INFO: Element Found
+04052022 11:47:02 PM - LoginPage - INFO: Element Found
+04052022 11:47:04 PM - LoginPage - INFO: Element Found
+04052022 11:47:05 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:47:05 PM - LoginPage - INFO: Element Found
+04052022 11:47:05 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:47:05 PM - LoginPage - INFO: Element Found
+04052022 11:47:05 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:47:05 PM - LoginPage - INFO: Element Found
+04052022 11:47:05 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:47:16 PM - LoginPage - INFO: Element Found
+04052022 11:47:16 PM - LoginPage - INFO: Element Found
+04052022 11:50:16 PM - LoginPage - INFO: Element Found
+04052022 11:50:16 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:50:17 PM - LoginPage - INFO: Element Found
+04052022 11:50:17 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:50:17 PM - LoginPage - INFO: Element Found
+04052022 11:50:17 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:50:17 PM - LoginPage - INFO: Element Found
+04052022 11:50:17 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:50:18 PM - LoginPage - INFO: Element Found
+04052022 11:50:18 PM - LoginPage - INFO: Element Found
+04052022 11:50:20 PM - LoginPage - INFO: Element Found
+04052022 11:50:20 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:50:21 PM - LoginPage - INFO: Element Found
+04052022 11:50:21 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:50:21 PM - LoginPage - INFO: Element Found
+04052022 11:50:21 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:50:21 PM - LoginPage - INFO: Element Found
+04052022 11:50:21 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:50:29 PM - LoginPage - INFO: Element Found
+04052022 11:50:29 PM - LoginPage - INFO: Element Found
+04052022 11:52:37 PM - LoginPage - INFO: Element Found
+04052022 11:52:37 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:52:38 PM - LoginPage - INFO: Element Found
+04052022 11:52:38 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:52:38 PM - LoginPage - INFO: Element Found
+04052022 11:52:38 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:52:38 PM - LoginPage - INFO: Element Found
+04052022 11:52:38 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:52:39 PM - LoginPage - INFO: Element Found
+04052022 11:52:39 PM - LoginPage - INFO: Element Found
+04052022 11:52:41 PM - LoginPage - INFO: Element Found
+04052022 11:52:42 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:52:52 PM - LoginPage - INFO: Element not found
+04052022 11:53:18 PM - LoginPage - INFO: Element Found
+04052022 11:53:18 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:53:19 PM - LoginPage - INFO: Element Found
+04052022 11:53:19 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:53:19 PM - LoginPage - INFO: Element Found
+04052022 11:53:19 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:53:19 PM - LoginPage - INFO: Element Found
+04052022 11:53:19 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:53:20 PM - LoginPage - INFO: Element Found
+04052022 11:53:20 PM - LoginPage - INFO: Element Found
+04052022 11:53:22 PM - LoginPage - INFO: Element Found
+04052022 11:53:22 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:53:23 PM - LoginPage - INFO: Element Found
+04052022 11:53:23 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:53:23 PM - LoginPage - INFO: Element Found
+04052022 11:53:23 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:53:23 PM - LoginPage - INFO: Element Found
+04052022 11:53:23 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:53:24 PM - LoginPage - INFO: Element Found
+04052022 11:53:24 PM - LoginPage - INFO: Element Found
+04052022 11:53:26 PM - LoginPage - INFO: Element Found
+04052022 11:53:26 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04052022 11:53:27 PM - LoginPage - INFO: Element Found
+04052022 11:53:27 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04052022 11:53:27 PM - LoginPage - INFO: Element Found
+04052022 11:53:27 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04052022 11:53:27 PM - LoginPage - INFO: Element Found
+04052022 11:53:27 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04052022 11:53:34 PM - LoginPage - INFO: Element Found
+04052022 11:53:34 PM - LoginPage - INFO: Element Found
+04062022 02:02:50 PM - LoginPage - INFO: Element not found
+04062022 02:02:50 PM - LoginPage - INFO: Element not found
+04062022 02:02:50 PM - LoginPage - INFO: Element not found
+04062022 02:03:03 PM - LoginPage - INFO: Element not found
+04062022 02:03:03 PM - LoginPage - INFO: Element not found
+04062022 02:03:03 PM - LoginPage - INFO: Element not found
+04062022 02:04:53 PM - LoginPage - INFO: Element not found
+04062022 02:04:54 PM - LoginPage - INFO: Element not found
+04062022 02:04:54 PM - LoginPage - INFO: Element not found
+04062022 02:07:04 PM - LoginPage - INFO: Element not found
+04062022 02:07:04 PM - LoginPage - INFO: Element not found
+04062022 02:07:04 PM - LoginPage - INFO: Element not found
+04062022 02:08:14 PM - LoginPage - INFO: Element Found
+04062022 02:08:14 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 02:08:14 PM - LoginPage - INFO: Element not found
+04062022 02:08:14 PM - LoginPage - INFO: Element Found
+04062022 02:08:15 PM - LoginPage - INFO: Element not found
+04062022 02:09:36 PM - LoginPage - INFO: Element Found
+04062022 02:09:37 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 02:09:37 PM - LoginPage - INFO: Element not found
+04062022 02:09:37 PM - LoginPage - INFO: Element Found
+04062022 02:09:37 PM - LoginPage - INFO: Element not found
+04062022 02:10:28 PM - LoginPage - INFO: Element Found
+04062022 02:10:29 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 02:10:30 PM - LoginPage - INFO: Element Found
+04062022 02:10:30 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04062022 02:10:30 PM - LoginPage - INFO: Element Found
+04062022 02:10:30 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04062022 02:10:30 PM - LoginPage - INFO: Element Found
+04062022 02:10:30 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04062022 02:10:31 PM - LoginPage - INFO: Element Found
+04062022 02:10:31 PM - LoginPage - INFO: Element Found
+04062022 02:10:41 PM - LoginPage - INFO: Element not found
+04062022 02:10:51 PM - LoginPage - INFO: Element not found
+04062022 02:11:37 PM - LoginPage - INFO: Element Found
+04062022 02:11:37 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 02:11:38 PM - LoginPage - INFO: Element Found
+04062022 02:11:38 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04062022 02:11:38 PM - LoginPage - INFO: Element Found
+04062022 02:11:38 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04062022 02:11:38 PM - LoginPage - INFO: Element Found
+04062022 02:11:38 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04062022 02:11:39 PM - LoginPage - INFO: Element Found
+04062022 02:11:39 PM - LoginPage - INFO: Element Found
+04062022 02:11:49 PM - LoginPage - INFO: Element not found
+04062022 02:11:59 PM - LoginPage - INFO: Element not found
+04062022 04:19:08 PM - LoginPage - INFO: Element Found
+04062022 04:19:09 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 04:19:10 PM - LoginPage - INFO: Element Found
+04062022 04:19:10 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04062022 04:19:10 PM - LoginPage - INFO: Element Found
+04062022 04:19:10 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04062022 04:19:10 PM - LoginPage - INFO: Element Found
+04062022 04:19:10 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04062022 04:19:11 PM - LoginPage - INFO: Element Found
+04062022 04:19:11 PM - LoginPage - INFO: Element Found
+04062022 04:19:21 PM - LoginPage - INFO: Element not found
+04062022 04:19:29 PM - LoginPage - INFO: Element Found
+04062022 04:25:03 PM - LoginPage - INFO: Element Found
+04062022 04:25:03 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 04:25:05 PM - LoginPage - INFO: Element Found
+04062022 04:25:05 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04062022 04:25:05 PM - LoginPage - INFO: Element Found
+04062022 04:25:05 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04062022 04:25:05 PM - LoginPage - INFO: Element Found
+04062022 04:25:05 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04062022 04:25:05 PM - LoginPage - INFO: Element Found
+04062022 04:25:05 PM - LoginPage - INFO: Element Found
+04062022 04:25:15 PM - LoginPage - INFO: Element not found
+04062022 04:25:25 PM - LoginPage - INFO: Element not found
+04062022 09:52:56 PM - LoginPage - INFO: Element Found
+04062022 09:52:56 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 09:52:58 PM - LoginPage - INFO: Element Found
+04062022 09:52:58 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04062022 09:52:58 PM - LoginPage - INFO: Element Found
+04062022 09:52:58 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04062022 09:52:58 PM - LoginPage - INFO: Element Found
+04062022 09:52:58 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04062022 09:52:59 PM - LoginPage - INFO: Element Found
+04062022 09:52:59 PM - LoginPage - INFO: Element Found
+04062022 09:53:09 PM - LoginPage - INFO: Element not found
+04062022 09:53:19 PM - LoginPage - INFO: Element not found
+04062022 09:56:24 PM - LoginPage - INFO: Element Found
+04062022 09:56:24 PM - LoginPage - INFO: Clicked on element with locator: Log In locator_type: link
+04062022 09:56:26 PM - LoginPage - INFO: Element Found
+04062022 09:56:26 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_signInEmailAddress and locatorType: id
+04062022 09:56:26 PM - LoginPage - INFO: Element Found
+04062022 09:56:26 PM - LoginPage - INFO: Send data on element with locator: capture_signIn_currentPassword and locatorType: id
+04062022 09:56:26 PM - LoginPage - INFO: Element Found
+04062022 09:56:26 PM - LoginPage - INFO: Clicked on element with locator: sign-in-button locator_type: class
+04062022 09:56:27 PM - LoginPage - INFO: Element Found
+04062022 09:56:27 PM - LoginPage - INFO: Element Found
+04062022 09:56:37 PM - LoginPage - INFO: Element not found
+04062022 09:56:47 PM - LoginPage - INFO: Element not found
