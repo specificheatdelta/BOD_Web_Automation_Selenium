@@ -1,6 +1,7 @@
 from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
 import logging
+from selenium.common.exceptions import NoSuchElementException
 
 
 class LoginPage(SeleniumDriver):
@@ -33,8 +34,19 @@ class LoginPage(SeleniumDriver):
         # self.get_login_button().click()
         self.element_click(locator=self._login_button, locator_type='class')
 
+    def clear_email(self):
+        self.clear_text_field(locator=self._email_field)
+
+    def clear_password(self):
+        self.clear_text_field(locator=self._password_field)
+
     def login(self, username="", password=""):
-        self.click_login_link()
+        if self.driver.current_url == 'https://stage.beachbodyondemand.com/':
+            self.click_login_link()
+        else:
+            pass
+        self.clear_email()
+        self.clear_password()
         self.enter_email(username)
         self.enter_password(password)
         self.click_login_button()
@@ -49,6 +61,15 @@ class LoginPage(SeleniumDriver):
             locator='//div[contains(text(),"Incorrect username or password. Please try again.")]',
             locator_type='xpath')
         return result
+
+    def verify_home_page_title(self):
+        if 'Beachbody on Demand' in self.get_title():
+            return True
+        else:
+            self.log.error(self.get_title())
+            return False
+
+
 
         ######### METHODS REPLACED WITH SELENIUMDRIVER CLASS METHODS ###########
 

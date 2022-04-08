@@ -14,6 +14,9 @@ class SeleniumDriver():
     def __init__(self, driver):
         self.driver = driver
 
+    def get_title(self):
+        return self.driver.title
+
     def get_by_type(self, locator_type):
         locator_type = locator_type.lower()
         if locator_type == "id":
@@ -104,3 +107,16 @@ class SeleniumDriver():
             self.log.info('Element not appeared on the web page')
             print_stack()
         return element
+
+    def clear_text_field(self, locator, locator_type='id'):
+        try:
+            element = self.get_element(locator, locator_type)
+            if element is not None:
+                element.clear()
+                return True
+            else:
+                self.log.info("Element not found")
+                return False
+        except NoSuchElementException:
+            self.log.info("Element not found")
+            return False

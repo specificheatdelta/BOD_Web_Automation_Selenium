@@ -4,8 +4,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from pages.home.login_page import LoginPage
 import unittest
+import time
 from base.selenium_driver import SeleniumDriver
 import pytest
+from utilities.test_status import TestStatus
 
 @pytest.mark.usefixtures('one_time_setUp', 'setUp')
 class LoginTests(unittest.TestCase):
@@ -18,17 +20,23 @@ class LoginTests(unittest.TestCase):
         autouse=True)  # Using @pytest.fixture(autouse=True) makes the fixture used on all the methods within the class
     def class_setup(self, one_time_setUp):
          self.lp = LoginPage(self.driver)
+         self.ts = TestStatus(self.driver)
 
     @pytest.mark.run(order=3)
     def test_valid_login(self):
         # self.driver.get(self.baseUrl)
+        time.sleep(2)
         self.lp.login('fahadbod@yopmail.com', 'Beach1234')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element(By.CSS_SELECTOR,
-                            'body > div.GroupsModalStyled__StyledGroupsModal-gbomg-14.jKoVmT > div > div > div > div > div > div > img').click()
-        self.driver.implicitly_wait(8)
-        result = self.lp.verify_login_successful()
-        assert result == True
+        time.sleep(2)
+        ## New badges popup element below. Has been removed in new web build##
+        # self.driver.find_element(By.CSS_SELECTOR,
+        #                     'body > div.GroupsModalStyled__StyledGroupsModal-gbomg-14.jKoVmT > div > div > div > div > div > div > img').click()
+        self.driver.implicitly_wait(5)
+        result1 = self.lp.verify_home_page_title()
+        self.ts.mark(result1,'Title is incorrect') ## Message is always the failed case message
+        result2 = self.lp.verify_login_successful()
+        self.ts.mark_final('test_valid_login', result2, 'Login test was not successful')
+
 
 
     @pytest.mark.run(order=1)
@@ -38,6 +46,7 @@ class LoginTests(unittest.TestCase):
         self.driver.implicitly_wait(10)
         result = self.lp.verify_login_failed()
         assert result == True
+
 
     @pytest.mark.run(order=2)
     def test_invalid_email_login(self):
