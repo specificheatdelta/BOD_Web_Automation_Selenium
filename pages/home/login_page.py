@@ -1,10 +1,10 @@
-from base.selenium_driver import SeleniumDriver
+from base.basepage import BasePage
 import utilities.custom_logger as cl
 import logging
 from selenium.common.exceptions import NoSuchElementException
 
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
 
     log = cl.custom_logger(logging.DEBUG)
 
@@ -63,11 +63,13 @@ class LoginPage(SeleniumDriver):
         return result
 
     def verify_home_page_title(self):
-        if 'Beachbody on Demand' in self.get_title():
-            return True
-        else:
-            self.log.error(self.get_title())
-            return False
+        # if 'Beachbody on Demand' in self.get_title():
+        #     return True
+        # else:
+        #     self.log.error(self.get_title())
+        #     return False
+        ### Below is coming from the basepage class
+        return self.verify_page_title('Beachbody on Demand')
 
 
 

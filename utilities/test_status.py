@@ -1,9 +1,6 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-import pytest
-from  base.selenium_driver import SeleniumDriver
+from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as cl
+from traceback import print_stack
 import logging
 
 class TestStatus(SeleniumDriver):
@@ -24,12 +21,16 @@ class TestStatus(SeleniumDriver):
                 else:
                     self.result_list.append('FAIL')
                     self.log.error(f'### VERIFICATION FAILED {result_message}')
+                    self.screen_shot(result_message)
             else:
                 self.result_list.append('FAIL')
                 self.log.error(f'### VERIFICATION FAILED {result_message}')
+                self.screen_shot(result_message)
         except:
             self.result_list.append('FAIL')
             self.log.error(f'### EXCEPTION OCCURED!!!')
+            self.screen_shot(result_message)
+            print_stack()
 
     def mark(self, result, result_message):
         self.set_result(result, result_message)

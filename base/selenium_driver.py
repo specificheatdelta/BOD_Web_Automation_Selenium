@@ -5,6 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 import utilities.custom_logger as cl
 import logging
+import time
+import os
 
 
 class SeleniumDriver():
@@ -13,6 +15,24 @@ class SeleniumDriver():
 
     def __init__(self, driver):
         self.driver = driver
+
+    def screen_shot(self, result_message):
+        file_name = result_message + '.' + str(round(time.time() * 1000)) + '.png'
+        screen_shot_directory = '../screenshots/'
+        relative_file_name = screen_shot_directory + file_name
+        current_directory = os.path.dirname(__file__)
+        destionation_file_name = os.path.join(current_directory,relative_file_name)
+        destionation_directory = os.path.join(current_directory,screen_shot_directory)
+
+        try:
+            if not os.path.exists(destionation_directory):
+                os.makedirs(destionation_directory)
+            self.driver.save_screenshot(destionation_file_name)
+            self.log.info(f'Screenshot saved to directory {destionation_file_name}')
+        except:
+            self.log.error('Exception occured in saving Screenshot')
+            print_stack()
+
 
     def get_title(self):
         return self.driver.title
