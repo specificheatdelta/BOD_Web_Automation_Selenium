@@ -3,6 +3,8 @@ import unittest
 import pytest
 from utilities.test_status import TestStatus
 from utilities.util import Util
+from ddt import ddt, data, unpack
+from utilities.read_data import get_csv_data
 import os
 
 TestStatus.__test__ = False
@@ -13,6 +15,7 @@ incorrect_password = os.environ.get('INCORRECT_PASSWORD')
 
 
 @pytest.mark.usefixtures('one_time_setUp', 'setUp')
+@ddt
 class LoginTests(unittest.TestCase):
     # baseUrl = 'https://stage.beachbodyondemand.com/'
     # chrome_path = Service("C:/SeleniumDrivers/chromedriver.exe")
@@ -24,16 +27,13 @@ class LoginTests(unittest.TestCase):
          self.lp = LoginPage(self.driver)
          self.ts = TestStatus(self.driver)
 
-    @pytest.mark.run(order=3)
+    @pytest.mark.run(order=2)
     def test_valid_login(self):
         util = Util()
         # self.driver.get(self.baseUrl)
         util.sleep(2)
         self.lp.login(correct_email, correct_password)
-        util.sleep(10)
-        ## New badges popup element below. Has been removed in new web build##
-        # self.driver.find_element(By.CSS_SELECTOR,
-        #                     'body > div.GroupsModalStyled__StyledGroupsModal-gbomg-14.jKoVmT > div > div > div > div > div > div > img').click()
+        util.sleep(12)
         result1 = self.lp.verify_home_page_title()
         self.ts.mark(result1,'Title is incorrect') ## Message is always the failed case message
         result2 = self.lp.verify_login_successful()
@@ -42,19 +42,21 @@ class LoginTests(unittest.TestCase):
 
 
     @pytest.mark.run(order=1)
-    def test_invalid_password_login(self):
+    @data(*get_csv_data('/Users/speci/PycharmProjects/automation_framework_demo/Invalid_login_test_data.csv'))
+    @unpack
+    def test_invalid_password_login(self, username, password):
         # self.driver.get(self.baseUrl)
-        self.lp.login(correct_email, incorrect_password)
-        self.driver.implicitly_wait(10)
+        util = Util()
+        self.lp.login(username, password)
+        util.sleep(1)
         result = self.lp.verify_login_failed()
         self.ts.mark_final('test_invalid_password_login', result, 'Invalid password test Failed')
 
-
-    @pytest.mark.run(order=2)
-    def test_invalid_email_login(self):
-        # self.driver.get(self.baseUrl)
-        self.lp.login(incorrect_email, correct_password)
-        self.driver.implicitly_wait(10)
-        result = self.lp.verify_login_failed()
-        self.ts.mark_final('test_invalid_email_login', result, 'Invalid email test Failed')
+    # @pytest.mark.run(order=2)
+    # def test_invalid_email_login(self):
+    #     # self.driver.get(self.baseUrl)
+    #     self.lp.login(incorrect_email, correct_password)
+    #     self.driver.implicitly_wait(10)
+    #     result = self.lp.verify_login_failed()
+    #     self.ts.mark_final('test_invalid_email_login', result, 'Invalid email test Failed')
 

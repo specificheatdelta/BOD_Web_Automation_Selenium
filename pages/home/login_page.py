@@ -1,8 +1,12 @@
+import os
+
 from base.basepage import BasePage
 import utilities.custom_logger as cl
 import logging
 from selenium.common.exceptions import NoSuchElementException
 
+correct_email = os.environ.get('CORRECT_EMAIL')
+correct_password = os.environ.get('CORRECT_PASSWORD')
 
 class LoginPage(BasePage):
 
@@ -41,7 +45,7 @@ class LoginPage(BasePage):
         self.clear_text_field(locator=self._password_field)
 
     def login(self, username="", password=""):
-        if self.driver.current_url == 'https://stage.beachbodyondemand.com/':
+        if self.driver.current_url == os.environ.get('BOD_STAGE_URL'):
             self.click_login_link()
         else:
             pass
@@ -49,6 +53,14 @@ class LoginPage(BasePage):
         self.clear_password()
         self.enter_email(username)
         self.enter_password(password)
+        self.click_login_button()
+
+    def valid_login(self):
+        self.click_login_link()
+        self.clear_email()
+        self.clear_password()
+        self.enter_email(correct_email)
+        self.enter_password(correct_password)
         self.click_login_button()
 
     def verify_login_successful(self):

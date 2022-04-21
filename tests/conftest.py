@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from base.web_driver_factory import WebDriverFactort
+from pages.home.login_page import LoginPage
 import pytest
 
 

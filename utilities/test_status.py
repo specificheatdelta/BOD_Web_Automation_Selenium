@@ -12,7 +12,7 @@ class TestStatus(SeleniumDriver):
         super(TestStatus, self).__init__(driver)
         self.result_list = []
 
-    def set_result(self,result, result_message):
+    def set_result(self, result, result_message):
         try:
             if result is not None:
                 if result:
@@ -28,7 +28,7 @@ class TestStatus(SeleniumDriver):
                 self.screen_shot(result_message)
         except:
             self.result_list.append('FAIL')
-            self.log.error(f'### EXCEPTION OCCURED!!!')
+            self.log.error(f'### EXCEPTION OCCURRED!!!')
             self.screen_shot(result_message)
             print_stack()
 

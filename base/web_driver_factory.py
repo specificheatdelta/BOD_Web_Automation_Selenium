@@ -1,3 +1,5 @@
+import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -8,7 +10,7 @@ class WebDriverFactort():
         self.browser = browser
 
     def web_driver_instance(self):
-        baseUrl = 'https://stage.beachbodyondemand.com/'
+        baseUrl = os.environ.get('BOD_STAGE_URL')
         if self.browser == 'firefox':
             firefox_path = Service("C:/SeleniumDrivers/geckodriver.exe")
             driver = webdriver.Firefox(service=firefox_path)
